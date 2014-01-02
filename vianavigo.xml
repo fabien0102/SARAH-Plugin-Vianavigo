@@ -1,13 +1,14 @@
 <grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleVianavigo" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
   <rule id="ruleVianavigo" scope="public">
-  <example>Sarah à qu'elle heure est le prochain train ?</example>
-    <tag>out.action=new Object(); </tag>
+    <example>Sarah à qu'elle heure est le prochain train ?</example>
+    <tag>out.action=new Object();</tag>
 
     <item weight="2">Sarah</item>
 
     <one-of>
-      <item>à qu'elle heure est le prochain train ?</item>
-      <item>quand est-ce qu'il y a un train ?</item>
+      <item>à qu'elle heure est le prochain train</item>
+      <item>quand est-ce qu'il y a un train</item>
+      <item>vianavigo</item>
     </one-of>
 
     <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/vianavigo";</tag>
