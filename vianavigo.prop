@@ -1,0 +1,17 @@
+{
+  "modules": {
+    "vianavigo": {
+      "description": "Donne les horaires du prochain train",
+      "version": "1.0",
+      "departure": "GARE+DU+BRAS+DE+FER%2C+%C3%89vry",
+      "departureCity": "%C3%89vry",
+      "departureCityCode": "91000",
+      "departureExternalCode": "8768139",
+      "arrival": "Ch%C3%A2telet+les+Halles%2C+Paris",
+      "arrivalCity": "Paris",
+      "arrivalCityCode": "75000",
+      "arrivalExternalCode": "8775860",
+      "trollTime": 5
+    }
+  }
+}
